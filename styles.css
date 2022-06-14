@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -10,29 +11,55 @@
 body{
   text-align: center;
   font-size: 15px;
-  background-color: hsla(84, 0%, 50%, 0.75);
+  background-color: hsl(0, 0%, 95%);
 }
 
 header{
-  height: 70px;
-  width: 100%;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: black;
 }
-footer{
-  height: 80px;
-  width: 100%;
+
+nav ul{
+  list-style: none;
+}
+ul li{
+  display: inline;
+}
+li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  color: hsl(0, 0%, 95%);
+}
+
+li a:first-of-type{
+  margin-right: 10px;
 }
 
 main{
-  margin: 50px auto;
-  width: 1000px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-container{
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .container{
   padding: 45px;
   height: 500px;
   width: 300px;
-  float: left;
   text-align: left;
 }
 
@@ -42,8 +69,9 @@ main{
 }
 
 .container h2{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Big Shoulders Display, sans-serif;
   font-weight: 700;
+  font-size: 40px;
   clear: left;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -51,7 +79,7 @@ main{
 }
 
 .container p{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Lexend Deca, Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   margin-top: 30px;
   margin-bottom: 40px;
@@ -76,6 +104,7 @@ main{
 }
 
 #one button{
+  font-family: Lexend Deca, Verdana, Geneva, Tahoma, sans-serif;
   color: hsl(31, 77%, 52%);
 }
 
