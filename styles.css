@@ -121,6 +121,7 @@ main{
 
 #two button{
   color: hsl(184, 100%, 22%);
+  font-family: Lexend Deca, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #two button:hover{
@@ -139,6 +140,7 @@ main{
 
 #three button{
   color: hsl(179, 100%, 13%);
+  font-family: Lexend Deca, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #three button:hover{
